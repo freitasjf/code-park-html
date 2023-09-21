@@ -5,55 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marco Zero</title>
     <link rel="shortcut icon" href="img/fav.png" type="Favicon Map">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Bem vindo ao Marco Zero!</h1>
-        <img src="img/simbolo1.jpg" alt="Simbolo Marco">
+        <nav class="nav-header">
+            <img class="logo" src="img/icons8-mapa-32.png" alt="logo">
+
+            <a href="#">Quem somos</a>
+            <a href="#">Turismo</a>
+            <a href="#">Depoimentos</a>
+                       
+            <a href="#" class="button">CONTATOS</a>
+        </nav>
+        
+        <div class="titulo">
+            <h1>Bem vindo ao Marco Zero!</h1>
+            <img src="img/simbolo1.jpg" alt="Simbolo Marco">
+        </div>
     </header>
+
 <hr>
+
     <main>
         <section>
-            <div>
+            <div class="principal">
                 <h2>Você já ouviu falar do Marco Zero?</h2>
             <p>O <strong>Marco Zero</strong>, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também como ponto inicial de contagem das distâncias calculadas a partir da cidade. <br> O lugar é um dos pontos mais importantes na capital Pernambucana, pois é também uma região de forte movimento durante o Carnaval.</p>
             <img src="img/marcozeropraça.jpg" alt="Praça"> <sub>Praça Principal</sub>
         </div>
-        <div>
-            <h2>História</h2>
-            <p>O Marco Zero no Recife Antigo é o lugar de referência onde a cidade nasceu e todas as medidas oficiais de distâncias rodoviárias usam como ponto de partida. Seu nome é, na verdade, Praça Rio Branco e fica ao lado do Porto de Pernambuco. <br>
-                Pode-se dizer que ele se situa no centro histórico da cidade, que é mais conhecido como <strong>Recife Antigo</strong> por ser a parte onde se iniciou o povoamento da capital pernambucana.                
-                A popularização do nome Marco Zero aconteceu desde 1938,<br> devido à instalação do símbolo geográfico na parte central da praça. Ele foi uma doação do <abbr title="Automóvel Clube de Pernambuco">ACP</abbr>.</p>
-                <img src="img/antigo.jpg" alt="Antigo Marco">
-
-        </div>
-        <hr>        
+        
             <article>
-                <h3>Atrações</h3>
-                <dl>
-                    <dt><ins>Paço do Frevo</ins></dt>
-                    <dd>O Paço do Frevo é um espaço cultural dedicado à preservação e promoção do frevo, ritmo musical e dança típicos de Pernambuco, localizado nas proximidades do monumento.</dd>
-                    <dt><ins>Igreja de Nossa Senhora do Carmo</ins></dt>
-                    <dd>Outro atrativo nas redondezas é a Igreja de Nossa Senhora do Carmo, construída no século XVIII e considerada obra-prima do barroco pernambucano.</dd>
-                    <dt><ins>Feiras de artesanato</ins></dt>
-                    <dd>Se você deseja aproveitar a sua visita para ir às compras, não deixe de visitar uma das feiras de artesanato distribuídas nas imediações do Marco Zero. </dd>
-                    <dt><ins>Parque de Esculturas</ins></dt>
-                    <dd>Não deixe de apreciar a vista deslumbrante para o Parque de Esculturas de Francisco Brennand, uma das joias do local.</dd>
-                </dl>
-                        
-                        <img src="img/paço.jpg" alt="Paço do Frevo">
-                        <img src="img/igreja.jpg" alt="Igreja Nossa Sra Carmo">
-                        <br>
-                        <img src="img/artesanato.jpg" alt="Feira de artesanato">
-                        <img src="img/parque.jpg" alt="Parte de Esculturas">
+                <div class="container-a">
+                    <h2>História</h2>
+                    <p>O Marco Zero no Recife Antigo é o lugar de referência onde a cidade nasceu e todas as medidas oficiais de distâncias rodoviárias usam como ponto de partida. Seu nome é, na verdade, Praça Rio Branco e fica ao lado do Porto de Pernambuco. <br>
+                        Pode-se dizer que ele se situa no centro histórico da cidade, que é mais conhecido como <strong>Recife Antigo</strong> por ser a parte onde se iniciou o povoamento da capital pernambucana.
+                        A popularização do nome Marco Zero aconteceu desde 1938,<br> devido à instalação do símbolo geográfico na parte central da praça. Ele foi uma doação do <abbr title="Automóvel Clube de Pernambuco">ACP</abbr>.</p>
+                        <img src="img/antigo.jpg" alt="Antigo Marco">
+                </div>
+                <hr>
+                <div class="container-b">
+                    <h2>Atrações</h2>
+                        <dl>
+                            <dt><ins>Paço do Frevo</ins></dt>
+                            <dd>O Paço do Frevo é um espaço cultural dedicado à preservação e promoção do frevo, ritmo musical e dança típicos de Pernambuco, localizado nas proximidades do monumento.</dd>
+                            <dt><ins>Igreja de Nossa Senhora do Carmo</ins></dt>
+                            <dd>Outro atrativo nas redondezas é a Igreja de Nossa Senhora do Carmo, construída no século XVIII e considerada obra-prima do barroco pernambucano.</dd>
+                            <dt><ins>Feiras de artesanato</ins></dt>
+                            <dd>Se você deseja aproveitar a sua visita para ir às compras, não deixe de visitar uma das feiras de artesanato distribuídas nas imediações do Marco Zero. </dd>
+                            <dt><ins>Parque de Esculturas</ins></dt>
+                            <dd>Não deixe de apreciar a vista deslumbrante para o Parque de Esculturas de Francisco Brennand, uma das joias do local.</dd>
+                        </dl>
+                    
+                                <img src="img/paço.jpg" alt="Paço do Frevo">
+                                <img src="img/igreja.jpg" alt="Igreja Nossa Sra Carmo">
+                                <br>
+                                <img src="img/artesanato.jpg" alt="Feira de artesanato">
+                                <img src="img/parque.jpg" alt="Parte de Esculturas">
+                </div>
             </article>
         <hr>
         </section>
     </main>
     <footer>
-        <nav>
+        <nav class="referencia">
             <h4>Quer saber mais sobre Recife e seus pontos turísticos?</h4>
-            <ul type="square">
+            <ul class="lista-referencia" type="square">
                 <li><a href="praias.html">Praias</a><img src="img/praia.png" alt="Praias"></li>
                 <li>Onde ficar <img src="img/hotel.png" alt="Hotéis"></li>
                 <li>Como chegar <img src="img/mapa.png" alt="Mapa"></li>
@@ -61,16 +78,18 @@
                 <li>Onde comer <img src="img/restaurante.png" alt="Restaurantes"></li>
             </ul>
         </nav>
-        <nav>
+        <nav class="contatos">
             <aside>
                 <h4>Contatos</h4>
-                <ul>
+                <ul class="lista-contato">
                     <li>Facebook <img src="img/face1.png" alt="Facebook"></li>
                     <li>Instagram <img src="img/instagram.png" alt="Instagram"></li>
                     <li>Twitter <img src="img/twitter.png" alt="Twitter"></li>
                 </ul>
             </aside>
         </nav>
+
+        <p>&copy; 2023 Todos os direitos reservados.</p>
         
     </footer>
 </body>
